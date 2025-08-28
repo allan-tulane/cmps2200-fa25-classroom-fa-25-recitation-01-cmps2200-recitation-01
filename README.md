@@ -1,7 +1,6 @@
 # CMPS 2200  Recitation 01
 
-**Name (Team Member 1):**Phu Thanh Tran
-**Name (Team Member 2):**_________________________
+**Name (Team Member 1):** Phu Thanh Tran
 
 In this recitation, we will investigate asymptotic complexity. Additionally, we will get familiar with the various technologies we'll use for collaborative coding.
 
@@ -53,6 +52,7 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 
 - [x] 8. Call `print_results(compare_search())` and paste the results here:
 **TODO: add your timing results here**
+
 |        n |   linear |   binary |
 |----------|----------|----------|
 |       10 |    0.000 |    0.000 |
@@ -68,7 +68,7 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
 **TODO: your answer goes here**
   + Yes, it matches.
 
-- [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
+- [x] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
   + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **TODO: your answer goes here**
     + The worst-case complexity of searching a list of n elements k times using linear search is $\Theta(k*n)$.
   + For binary search? **TODO: your answer goes here**
