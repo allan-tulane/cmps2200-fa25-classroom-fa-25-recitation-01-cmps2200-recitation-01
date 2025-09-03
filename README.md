@@ -75,4 +75,3 @@ We'll compare the running times of `linear_search` and `binary_search` empirical
     + The worst-case complexity of searching a list of n elements k times using binary search (including the initial sort) is $\Theta(n^2 +klogn)$.
   + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **TODO: your answer goes here**
     + So, binary search (with initial sorting) is more efficient when the number of searches, k, is greater than (n ^ 2) / (n - logn). This shows that if you're searching the list many, many times, the upfront cost of sorting becomes worthwhile because binary search is significantly faster per individual search.
-    
